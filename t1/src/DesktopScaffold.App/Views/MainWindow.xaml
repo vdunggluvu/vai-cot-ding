@@ -1,0 +1,108 @@
+<Window x:Class="DesktopScaffold.App.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{Binding Title}"
+        Height="720" Width="1100"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <DockPanel Grid.Row="0" LastChildFill="True">
+            <TextBlock FontSize="20" FontWeight="SemiBold" Text="{Binding Title}" />
+            <TextBlock DockPanel.Dock="Right" VerticalAlignment="Center" Foreground="Gray"
+                       Text="{Binding StatusText}" />
+        </DockPanel>
+
+        <!-- Controls -->
+        <Border Grid.Row="1" BorderBrush="#DDD" BorderThickness="1" Padding="12" Margin="0,12,0,12" CornerRadius="6">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock FontWeight="SemiBold" Text="Input"/>
+                    <TextBlock Foreground="Gray" Text="CSV format: Id,Name,Value"/>
+                    <DockPanel>
+                        <TextBox Text="{Binding InputPath, UpdateSourceTrigger=PropertyChanged}" MinWidth="420"/>
+                        <Button Content="Browse…" Margin="8,4,0,4" Command="{Binding BrowseInputCommand}"/>
+                    </DockPanel>
+                    <DockPanel>
+                        <TextBlock VerticalAlignment="Center" Text="Delimiter:" Margin="0,0,8,0"/>
+                        <TextBox Width="60" Text="{Binding DelimiterText, UpdateSourceTrigger=PropertyChanged}"/>
+                        <Button Content="Import" Margin="12,4,0,4" Command="{Binding ImportCommand}" IsEnabled="{Binding CanInteract}"/>
+                    </DockPanel>
+
+                    <TextBlock FontWeight="SemiBold" Margin="0,12,0,0" Text="Transform"/>
+                    <DockPanel>
+                        <TextBlock VerticalAlignment="Center" Text="Multiply factor:" Margin="0,0,8,0"/>
+                        <TextBox Width="120" Text="{Binding MultiplyFactorText, UpdateSourceTrigger=PropertyChanged}"/>
+                        <CheckBox Content="Filter non-positive" Margin="12,0,0,0" IsChecked="{Binding FilterNonPositive}"/>
+                        <Button Content="Run" Margin="12,4,0,4" Command="{Binding TransformCommand}" IsEnabled="{Binding CanInteract}"/>
+                    </DockPanel>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2">
+                    <TextBlock FontWeight="SemiBold" Text="Output"/>
+                    <DockPanel>
+                        <TextBox Text="{Binding OutputPath, UpdateSourceTrigger=PropertyChanged}" MinWidth="420"/>
+                        <Button Content="Browse…" Margin="8,4,0,4" Command="{Binding BrowseOutputCommand}"/>
+                    </DockPanel>
+                    <Button Content="Export" Command="{Binding ExportCommand}" HorizontalAlignment="Left" IsEnabled="{Binding CanInteract}"/>
+
+                    <TextBlock FontWeight="SemiBold" Margin="0,12,0,0" Text="Recent Files"/>
+                    <ListBox ItemsSource="{Binding RecentFiles}" Height="120">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding}"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Data grid -->
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="16"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <GroupBox Header="Imported / Current Data" Grid.Column="0">
+                <DataGrid ItemsSource="{Binding CurrentRows}" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="80"/>
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                        <DataGridTextColumn Header="Value" Binding="{Binding Value}" Width="120"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </GroupBox>
+
+            <GroupBox Header="Summary" Grid.Column="2">
+                <StackPanel Margin="8">
+                    <TextBlock Text="{Binding SummaryText}" TextWrapping="Wrap"/>
+                    <TextBlock Margin="0,12,0,0" FontWeight="SemiBold" Text="Messages"/>
+                    <TextBox Text="{Binding MessageLog}" AcceptsReturn="True" IsReadOnly="True" VerticalScrollBarVisibility="Auto" Height="260"/>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+
+        <!-- Footer -->
+        <DockPanel Grid.Row="3" Margin="0,12,0,0">
+            <ProgressBar Height="18" Width="180" IsIndeterminate="True"
+                         Visibility="{Binding IsBusy, Converter={StaticResource BoolToVisibility}}"/>
+            <TextBlock DockPanel.Dock="Right" Foreground="Firebrick" Text="{Binding ErrorText}" TextWrapping="Wrap" Width="640" TextAlignment="Right"/>
+        </DockPanel>
+    </Grid>
+</Window>
+

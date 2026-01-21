@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataFlowApp.Application\DataFlowApp.Application.csproj" />
+    <ProjectReference Include="..\DataFlowApp.Domain\DataFlowApp.Domain.csproj" />
+    <ProjectReference Include="..\DataFlowApp.Infrastructure\DataFlowApp.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

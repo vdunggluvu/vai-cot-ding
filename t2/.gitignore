@@ -1,0 +1,26 @@
+# Build output
+bin/
+obj/
+*.user
+*.suo
+*.cache
+.vs/
+
+# Logs
+Logs/
+*.log
+
+# Test results
+TestResults/
+*.trx
+
+# Config (optional - keep appsettings.json in source control for template)
+# config/appsettings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
