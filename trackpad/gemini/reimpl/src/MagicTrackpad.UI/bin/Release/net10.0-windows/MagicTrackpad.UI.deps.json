@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MagicTrackpad.UI/1.0.0": {
+        "dependencies": {
+          "Hardcodet.NotifyIcon.Wpf": "2.0.1",
+          "MagicTrackpad.Core": "1.0.0"
+        },
+        "runtime": {
+          "MagicTrackpad.UI.dll": {}
+        }
+      },
+      "Hardcodet.NotifyIcon.Wpf/2.0.1": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Hardcodet.NotifyIcon.Wpf.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.1.2717"
+          }
+        }
+      },
+      "MagicTrackpad.Core/1.0.0": {
+        "runtime": {
+          "MagicTrackpad.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MagicTrackpad.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hardcodet.NotifyIcon.Wpf/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dtxmeZXzV2GzSm91aZ3hqzgoeVoARSkDPVCYfhVUNyyKBWYxMgNC0EcLiSYxD4Uc4alq/2qb3SmV8DgAENLRLQ==",
+      "path": "hardcodet.notifyicon.wpf/2.0.1",
+      "hashPath": "hardcodet.notifyicon.wpf.2.0.1.nupkg.sha512"
+    },
+    "MagicTrackpad.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

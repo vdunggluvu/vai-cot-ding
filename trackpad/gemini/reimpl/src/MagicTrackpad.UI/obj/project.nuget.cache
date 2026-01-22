@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IXATufSIhWY=",
+  "success": true,
+  "projectFilePath": "D:\\CTF\\test\\trackpad\\gemini\\reimpl\\src\\MagicTrackpad.UI\\MagicTrackpad.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vdungg\\.nuget\\packages\\hardcodet.notifyicon.wpf\\2.0.1\\hardcodet.notifyicon.wpf.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

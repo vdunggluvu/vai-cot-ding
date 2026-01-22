@@ -1,0 +1,46 @@
+{
+  "app": {
+    "startMinimized": true,
+    "autoSave": true,
+    "logLevel": "Information"
+  },
+  "features": {
+    "trayIcon": true,
+    "enableHooks": false,
+    "enableHotkeys": false,
+    "enableDeviceMonitor": false,
+    "enableUpdater": false,
+    "enableSendInput": false
+  },
+  "remapping": [
+    {
+      "fromVk": 124,
+      "toVk": 175,
+      "description": "F13 -> Volume Up (example - not confirmed by flow report)"
+    },
+    {
+      "fromVk": 125,
+      "toVk": 174,
+      "description": "F14 -> Volume Down (example - not confirmed by flow report)"
+    },
+    {
+      "fromVk": 126,
+      "toVk": 173,
+      "description": "F15 -> Mute (example - not confirmed by flow report)"
+    }
+  ],
+  "hotkeys": [
+    {
+      "id": 1,
+      "modifiers": [ "Control", "Alt" ],
+      "vk": 75,
+      "action": "ToggleEnabled",
+      "description": "Ctrl+Alt+K -> Toggle keyboard hooks (example)"
+    }
+  ],
+  "device": {
+    "appleVendorId": "0x05AC",
+    "notifyOnConnect": true,
+    "notifyOnDisconnect": true
+  }
+}

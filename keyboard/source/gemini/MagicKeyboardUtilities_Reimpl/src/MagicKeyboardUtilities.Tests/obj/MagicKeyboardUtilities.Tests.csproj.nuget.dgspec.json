@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CTF\\test\\keyboard\\source\\gemini\\MagicKeyboardUtilities_Reimpl\\src\\MagicKeyboardUtilities.Tests\\MagicKeyboardUtilities.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\CTF\\test\\keyboard\\source\\gemini\\MagicKeyboardUtilities_Reimpl\\src\\MagicKeyboardUtilities.App\\MagicKeyboardUtilities.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CTF\\test\\keyboard\\source\\gemini\\MagicKeyboardUtilities_Reimpl\\src\\MagicKeyboardUtilities.App\\MagicKeyboardUtilities.App.csproj",
+        "projectName": "MagicKeyboardUtilities.App",
+        "projectPath": "D:\\CTF\\test\\keyboard\\source\\gemini\\MagicKeyboardUtilities_Reimpl\\src\\MagicKeyboardUtilities.App\\MagicKeyboardUtilities.App.csproj",
+        "packagesPath": "C:\\Users\\vdungg\\.nuget\\packages\\",
+        "outputPath": "D:\\CTF\\test\\keyboard\\source\\gemini\\MagicKeyboardUtilities_Reimpl\\src\\MagicKeyboardUtilities.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vdungg\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CTF\\test\\keyboard\\source\\gemini\\MagicKeyboardUtilities_Reimpl\\src\\MagicKeyboardUtilities.Tests\\MagicKeyboardUtilities.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CTF\\test\\keyboard\\source\\gemini\\MagicKeyboardUtilities_Reimpl\\src\\MagicKeyboardUtilities.Tests\\MagicKeyboardUtilities.Tests.csproj",
+        "projectName": "MagicKeyboardUtilities.Tests",
+        "projectPath": "D:\\CTF\\test\\keyboard\\source\\gemini\\MagicKeyboardUtilities_Reimpl\\src\\MagicKeyboardUtilities.Tests\\MagicKeyboardUtilities.Tests.csproj",
+        "packagesPath": "C:\\Users\\vdungg\\.nuget\\packages\\",
+        "outputPath": "D:\\CTF\\test\\keyboard\\source\\gemini\\MagicKeyboardUtilities_Reimpl\\src\\MagicKeyboardUtilities.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vdungg\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\CTF\\test\\keyboard\\source\\gemini\\MagicKeyboardUtilities_Reimpl\\src\\MagicKeyboardUtilities.App\\MagicKeyboardUtilities.App.csproj": {
+                "projectPath": "D:\\CTF\\test\\keyboard\\source\\gemini\\MagicKeyboardUtilities_Reimpl\\src\\MagicKeyboardUtilities.App\\MagicKeyboardUtilities.App.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

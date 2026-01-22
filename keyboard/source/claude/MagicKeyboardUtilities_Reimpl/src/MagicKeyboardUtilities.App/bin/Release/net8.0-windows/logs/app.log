@@ -1,0 +1,20 @@
+[2026-01-22 19:31:33.857] [Information] [Program] === Magic Keyboard Utilities Reimplementation ===
+[2026-01-22 19:31:33.870] [Information] [Program] Version: 3.1.5.6
+[2026-01-22 19:31:33.871] [Information] [Program] Traceability: Flow Report Analysis 22/01/2026
+[2026-01-22 19:31:33.871] [Information] [Program] Loading configuration...
+[2026-01-22 19:31:33.895] [Information] [MagicKeyboardUtilities.App.Config.ConfigStore] Configuration loaded from D:\CTF\test\keyboard\source\claude\MagicKeyboardUtilities_Reimpl\src\MagicKeyboardUtilities.App\bin\Release\net8.0-windows\config.json
+[2026-01-22 19:31:33.911] [Information] [Program] Initializing services...
+[2026-01-22 19:31:33.913] [Information] [MagicKeyboardUtilities.App.AppHost] === Starting MagicKeyboardUtilities Reimplementation ===
+[2026-01-22 19:31:33.913] [Information] [MagicKeyboardUtilities.App.AppHost] Registered 4 actions
+[2026-01-22 19:31:33.913] [Information] [MagicKeyboardUtilities.App.AppHost] Loading key mappings...
+[2026-01-22 19:31:33.914] [Information] [MagicKeyboardUtilities.App.Core.RemappingEngine] Loaded mapping: VK 124 -> VK 175 (F13 -> Volume Up (example - not confirmed by flow report))
+[2026-01-22 19:31:33.914] [Information] [MagicKeyboardUtilities.App.Core.RemappingEngine] Loaded mapping: VK 125 -> VK 174 (F14 -> Volume Down (example - not confirmed by flow report))
+[2026-01-22 19:31:33.914] [Information] [MagicKeyboardUtilities.App.Core.RemappingEngine] Loaded mapping: VK 126 -> VK 173 (F15 -> Mute (example - not confirmed by flow report))
+[2026-01-22 19:31:33.914] [Information] [MagicKeyboardUtilities.App.Core.RemappingEngine] Loaded 3 key mappings
+[2026-01-22 19:31:33.914] [Information] [MagicKeyboardUtilities.App.AppHost] Creating message window...
+[2026-01-22 19:31:33.922] [Information] [MagicKeyboardUtilities.App.Messaging.HiddenMessageWindow] Hidden message window created, handle: 328692
+[2026-01-22 19:31:33.922] [Information] [MagicKeyboardUtilities.App.AppHost] Creating tray icon...
+[2026-01-22 19:31:34.009] [Information] [MagicKeyboardUtilities.App.Tray.TrayIconController] Tray icon created successfully
+[2026-01-22 19:31:34.011] [Information] [MagicKeyboardUtilities.App.AppHost] Hooks disabled by default (safety)
+[2026-01-22 19:31:34.011] [Information] [MagicKeyboardUtilities.App.AppHost] === Application started successfully ===
+[2026-01-22 19:31:34.011] [Information] [Program] Entering message loop...

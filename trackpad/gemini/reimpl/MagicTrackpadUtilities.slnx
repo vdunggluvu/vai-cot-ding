@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MagicTrackpad.Core/MagicTrackpad.Core.csproj" />
+    <Project Path="src/MagicTrackpad.UI/MagicTrackpad.UI.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MagicTrackpad.Tests/MagicTrackpad.Tests.csproj" />
+  </Folder>
+</Solution>

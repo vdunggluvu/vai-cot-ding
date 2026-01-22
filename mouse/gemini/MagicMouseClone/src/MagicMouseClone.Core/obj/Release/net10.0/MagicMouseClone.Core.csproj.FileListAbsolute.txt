@@ -1,0 +1,12 @@
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.Core\bin\Release\net10.0\MagicMouseClone.Core.deps.json
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.Core\bin\Release\net10.0\MagicMouseClone.Core.dll
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.Core\bin\Release\net10.0\MagicMouseClone.Core.pdb
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.Core\obj\Release\net10.0\MagicMouseClone.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.Core\obj\Release\net10.0\MagicMouseClone.Core.AssemblyInfoInputs.cache
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.Core\obj\Release\net10.0\MagicMouseClone.Core.AssemblyInfo.cs
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.Core\obj\Release\net10.0\MagicMouseClone.Core.csproj.CoreCompileInputs.cache
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.Core\obj\Release\net10.0\MagicMouseClone.Core.sourcelink.json
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.Core\obj\Release\net10.0\MagicMouseClone.Core.dll
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.Core\obj\Release\net10.0\refint\MagicMouseClone.Core.dll
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.Core\obj\Release\net10.0\MagicMouseClone.Core.pdb
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.Core\obj\Release\net10.0\ref\MagicMouseClone.Core.dll

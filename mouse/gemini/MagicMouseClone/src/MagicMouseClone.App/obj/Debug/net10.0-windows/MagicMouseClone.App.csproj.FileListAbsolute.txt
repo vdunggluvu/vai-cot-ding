@@ -1,0 +1,3 @@
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.App\obj\Debug\net10.0-windows\MagicMouseClone.App.csproj.AssemblyReference.cache
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.App\obj\Debug\net10.0-windows\App.g.cs
+D:\CTF\test\mouse\gemini\MagicMouseClone\src\MagicMouseClone.App\obj\Debug\net10.0-windows\MagicMouseClone.App_MarkupCompile.cache
